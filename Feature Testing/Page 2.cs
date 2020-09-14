@@ -17,8 +17,12 @@ namespace Feature_Testing
         {
             InitializeComponent();
 
-            Marshal.PtrToStructure(intPtr x, )
-        }
+            //this is marshal trial, but i don't know yet how to try it
+            //this should be an easy trial by using the marshall to write and read the memory
+            int memori = Convert.ToInt32(textBox1.Text);
+            int data = Marshal.SizeOf(memori);
+            label1.Text = Convert.ToString(data);
+        }   
 
         private void Page_2_Load(object sender, EventArgs e)
         {
