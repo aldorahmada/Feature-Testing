@@ -16,8 +16,9 @@ namespace Feature_Testing
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Main());
+            //Application.Run(new Main());
             //Application.Run(new Page_1());
+            Application.Run(new Page_2());
         }
     }
 }
